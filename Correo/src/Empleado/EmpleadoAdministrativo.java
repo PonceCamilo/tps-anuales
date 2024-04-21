@@ -1,12 +1,9 @@
-package Empleados;
-
+package Empleado;
 public class EmpleadoAdministrativo extends Empleado {
-
-    private int departamento;
+    int departamento;
 
     public EmpleadoAdministrativo(String nombre, String apellido, String telefono, int departamento) {
         super(nombre, apellido, telefono);
         this.departamento = departamento;
     }
-
 }

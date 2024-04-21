@@ -1,9 +1,7 @@
-package Envios.Locacion;
-
+package Camino;
 public class Lugar {
-
-    private String direccion;
-    private String localidad;
+    public String direccion;
+    public String localidad;
 
     public Lugar(String direccion, String localidad) {
         this.direccion = direccion;
